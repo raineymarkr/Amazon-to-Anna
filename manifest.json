@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Amazon Anna",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "https://*.amazon.com/*",
+        "https://*.annas-archive.org/*",
+        "contextMenus"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    }
+}
