@@ -1,12 +1,26 @@
 {
     "manifest_version": 2,
     "name": "Amazon Anna",
-    "version": "1.0",
+    "version": "2.1",
     "permissions": [
         "activeTab",
         "tabs",
         "https://*.amazon.com/*",
         "https://*.annas-archive.org/*",
+	"https://*.amazon.ca/*",
+	"https://*.amazon.cn/*",
+	"https://*.amazon.co.jp/*",
+	"https://*.amazon.com.au/*",
+	"https://*.amazon.com.mx/*",
+	"https://*.amazon.co.uk/*",
+	"https://*.amazon.de/*",
+	"https://*.amazon.es/*",
+	"https://*.amazon.eu/*",
+	"https://*.amazon.fr/*",
+	"https://*.amazon.in/*",
+	"https://*.amazon.it/*",
+	"https://*.amazon.nl/*",
+	"https://*.amazon.sa/*",
         "contextMenus"
     ],
     "background": {
